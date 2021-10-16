@@ -6,44 +6,71 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     
     <link rel="stylesheet" href = "./style.css">
-    <title>Mem slider</title>
+    <title>Meme slider</title>
 </head>
 <body>
 
-<div class="slider__container">
-    <div class="slider__inputs">
-        <input class= "slider__inputs-item" type="radio" name = "dot" id = "dot1" checked>
-        <input class= "slider__inputs-item" type="radio" name = "dot" id = "dot2">
-        <input class= "slider__inputs-item" type="radio" name = "dot" id = "dot3">
-        <input class= "slider__inputs-item" type="radio" name = "dot" id = "dot4">
-        </div>
+    <div class="slider__images">
     
-<div class="slider__images">
-    <img class="slider__images-item" src="./assets/codejam.jpg" alt="slider-image" >
-    <img class="slider__images-item" src="./assets/works.jpg" alt="slider-image">
-    <img class="slider__images-item" src="./assets/review.jpg" alt="slider-image" >
-    <img class="slider__images-item" src="./assets/pigeon.png" alt="slider-image" >
+        <div class="slider__images-item"><img src="./assets/works.jpg" alt="slider-image"></div> 
+        <div class="slider__images-item"><img src="./assets/review.jpg" alt="slider-image" ></div>
+        <div class="slider__images-item"><img src="./assets/pigeon.png" alt="slider-image" ></div>
+        <div class="slider__images-item s1"><img src="./assets/amen.jpg" alt="slider-image"></div>
     </div>
-<div class="slider__bottom">
+    <div id="slider">
 
-<div class="slider__texts">
-<div class="slider__texts-item"> Codejam 2021 looks like</div>
-<div class="slider__texts-item"> Actually, hello, JS </div>
-<div class="slider__texts-item"> Cross-checkers been like</div>
-<div class="slider__texts-item"> When i try my 8kyu tasks on Codewars </div>
+        <input type="radio" name = "dot" id ="dot1" checked>
+        <input type="radio" name = "dot" id ="dot2">
+        <input type="radio" name = "dot" id ="dot3">
+        <input type="radio" name = "dot" id ="dot4">
+
+    
+
+
+<div id="slides">
+<div id = "overflow">
+<div class="inner">
+
+    <div class="slide slide_1"> 
+        <div class="slide__content">
+            <h2>Actually, hello, JS!</h2>
+        </div>
+</div>
+
+<div class="slide slide_2"> 
+    <div class="slide__content">
+        <h2>Cross-checkers been like</h2>
+    </div>
+</div>
+
+<div class="slide slide_3"> 
+    <div class="slide__content">
+        <h2>Trying my 8kyu tasks on Codewars</h2>
+    </div>
+</div>
+
+
+<div class="slide slide_4"> 
+    <div class="slide__content">
+        <h2> Just enjoying! </h2>
+    </div>
+</div>
+</div>
+</div>
+</div>
+
+    
+<div id="bullets">
+    <label for="dot1" ></label>
+    <label for="dot2" ></label>
+    <label for="dot3" ></label>
+    <label for="dot4" ></label>
+</div>
 </div>
 
 
 
-
-<div class="slider__labels">
-    <label for="dot1" class="slider__labels-item"></label>
-    <label for="dot2" class="slider__labels-item"></label>
-    <label for="dot3" class="slider__labels-item"></label>
-    <label for="dot4" class="slider__labels-item"></label>
-</div>
-</div>
-</div>
-
+    
+    
 </body>
 </html>
