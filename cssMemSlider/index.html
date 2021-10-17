@@ -4,97 +4,66 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400&display=swap" rel="stylesheet">
     <link rel="stylesheet" href = "./style.css">
     <title>Meme slider</title>
 </head>
 <body>
+
+   
+
 <div class="container">
 
     <div id="img__slider">
+        <input checked type="radio" name = "dot" id ="dot1">
+        <input type="radio" name = "dot" id ="dot2">
+        <input type="radio" name = "dot" id ="dot3">
+        <input type="radio" name = "dot" id ="dot4">
+
     <div id="img__slides">
         <div id = "img__overflow">
         <div class="img__inner">
 
-  
-    
         <div class="imgslide imgslide_1">
             <div class="img__content">
-            <img src="./assets/works.jpg" alt="slider-image">
+            <img src="./assets/me.png" alt="slider-image">
+            <div class="slide__content">Spending weekend do Codejam </div>
         </div> 
     </div>
 
     <div class="imgslide imgslide_2">
         <div class="img__content">
-        <img src="./assets/review.jpg" alt="slider-image">
+        <img src="./assets/sleep.png" alt="slider-image">
+        <div class="slide__content">Every night thinking "what if..?"
+        </div>
     </div> 
 </div>
 <div class="imgslide imgslide_3">
     <div class="img__content">
-    <img src="./assets/pigeon.png" alt="slider-image">
+    <img src="./assets/horse.png" alt="slider-image">
+    <div class="slide__content">Trying my 8kyu tasks on Codewars
+    </div>
 </div> 
 </div>
 <div class="imgslide imgslide_4">
     <div class="img__content">
     <img src="./assets/amen.jpg" alt="slider-image">
+    <div class="slide__content">Just enjoying! </div>
 </div> 
 </div>
-</div>
-</div>
-</div>
+
 </div>
 
-
-    
-
-
-
-    <div id="slider">
-
-        <input type="radio" name = "dot" id ="dot1" checked>
-        <input type="radio" name = "dot" id ="dot2">
-        <input type="radio" name = "dot" id ="dot3">
-        <input type="radio" name = "dot" id ="dot4">
-
-    
-
-
-<div id="slides">
-<div id = "overflow">
-<div class="inner">
-
-    <div class="slide slide_1"> 
-        <div class="slide__content">
-            <h2>Actually, hello, JS!</h2>
-        </div>
 </div>
 
-<div class="slide slide_2"> 
-    <div class="slide__content">
-        <h2>Cross-checkers been like...</h2>
-    </div>
 </div>
-
-<div class="slide slide_3"> 
-    <div class="slide__content">
-        <h2>Trying my 8kyu tasks on Codewars</h2>
-    </div>
-</div>
-
-
-<div class="slide slide_4"> 
-    <div class="slide__content">
-        <h2> Just enjoying! </h2>
-    </div>
-</div>
-</div>
-</div>
-</div>
-
-    
 <div id="bullets">
-    <label for="dot1" ></label>
-    <label for="dot2" ></label>
+    <label for="dot1"></label>
+    <label for="dot2"></label>
     <label for="dot3" ></label>
     <label for="dot4" ></label>
 </div>
@@ -102,7 +71,15 @@
 
 
 
+
+
+    
+
 </div>
+
+
+
+
     
 </body>
 </html>
